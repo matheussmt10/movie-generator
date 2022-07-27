@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    height: 10vh;
+    align-items: center;
+}
+
+input {
+    width: 500px;
+    height: 40px;
+    background: #DBDCDF;
+    box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    border: none;
+    padding-left: 20px;
+    color: rgb(51, 51, 51);
+    font-size: 12pt;
+    outline: none;
+}
+
+h1 {
+    font-size: 20pt;
+}
+
+.iconProfile {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background: blue;
+}
+

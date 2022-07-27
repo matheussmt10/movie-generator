@@ -1,0 +1,29 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 85vh;
+    position: absolute;
+    justify-content: space-between;
+    
+}
+
+nav div {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    
+    background: #FFF;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+
+
+img {
+    max-width: 30px;
+}
+
