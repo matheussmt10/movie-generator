@@ -3,27 +3,54 @@ nav {
     flex-direction: column;
     width: 150px;
     height: 85vh;
-    position: absolute;
     justify-content: space-between;
-    
+    align-items: center;
 }
 
 nav div {
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
 button {
-    
+    width: 80px;
+    height: 80px;
     background: #FFF;
     border: none;
     cursor: pointer;
-    margin-bottom: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    
+    font-size: 10pt;
+    margin: 8px 0px;
 }
 
 
 
-img {
-    max-width: 30px;
+
+
+.active{
+    border-radius: 10px;
+    background: rgba(35, 35, 35, 0.1);
+    color: #1F50FF;;
 }
 
+.activeIcon {
+    color: #1F50FF !important;
+}
+
+.fas .fa-home{
+    color: #FFF;
+}
+
+.icons {
+    height: 23px;
+    color: #737373;
+}

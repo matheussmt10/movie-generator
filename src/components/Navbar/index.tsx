@@ -9,36 +9,42 @@ import helpIcon from "../../assets/question.png";
 //import do css
 import './style.css';
 
+//import FontAwesome
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faClock, faCoffee, faGear, faHome, faInfo, faInfoCircle, faPlus, faRankingStar, faUsersGear } from '@fortawesome/free-solid-svg-icons'
+
+
+
 export function Navbar(){
     
     return (
         <nav>
             <div>
-                <button className="Home">
-                    <img src={homeIcon} alt="" />
+                <button className="home active">
+                    <FontAwesomeIcon icon={faHome} className="icons activeIcon"/>
                     <p>Home</p>
                 </button>
-                <button className="Ranking">
-                    <img src={rankingIcon} alt="" />
+                <button>
+                    <FontAwesomeIcon icon={faRankingStar} className="icons"/>
                     <p>Ranking</p>
                 </button>
-                <button className="Last Seen">
-                    <img src={lastSeenIcon} alt="" />
+                <button className="lastSeen">
+                    <FontAwesomeIcon icon={faClock} className="icons"/>
                     <p>Last Seen</p>
                 </button>
-                <button className="Extra">
-                    <img src={extraIcon} alt="" />
+                <button className="extra">
+                    <FontAwesomeIcon icon={faPlus} className="icons"/>
                     <p>Extra</p>
                 </button>
             </div>
 
             <div>
-                <button className="Setting">
-                    <img src={settingsIcon} alt="" />
+                <button className="setting">
+                    <FontAwesomeIcon icon={faGear} className="icons"/>
                     <p>Setting</p>
                 </button>
-                <button className="Help">
-                    <img src={helpIcon} alt="" />
+                <button className="help">
+                    <FontAwesomeIcon icon={faInfoCircle} className="icons"/>
                     <p>Help</p>
                 </button>
             </div>

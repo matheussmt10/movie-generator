@@ -2,12 +2,12 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 0px 50px;
-    height: 10vh;
+    height: 12vh;
     align-items: center;
 }
 
 input {
-    width: 500px;
+    width: 25vw;
     height: 40px;
     background: #DBDCDF;
     box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.05);

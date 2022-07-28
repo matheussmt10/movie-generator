@@ -1,0 +1,9 @@
+.containerGenerator {
+    position: relative;
+    width: 90vw;
+    height: 650px;
+    background-image: url('https://image.tmdb.org/t/p/original/3emtmbHAp145frh3Pps1bZCCEHY.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+}
