@@ -16,6 +16,8 @@ import { faClock, faCoffee, faGear, faHome, faInfo, faInfoCircle, faPlus, faRank
 
 
 export function Navbar(){
+
+    
     
     return (
         <nav>

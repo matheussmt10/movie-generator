@@ -13,11 +13,8 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <Header/>
     <div style={{
       display:'flex',
-      
-      
       width: '98vw',
       height: '88vh'
-
     }}>
     <Navbar/>
     <ContainerGenerator/>
