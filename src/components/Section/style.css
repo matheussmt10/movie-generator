@@ -1,9 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+
 .containerGenerator {
     position: relative;
-    width: 90vw;
+    width: 95vw;
     height: 650px;
-    background-image: url('https://image.tmdb.org/t/p/original/3emtmbHAp145frh3Pps1bZCCEHY.jpg');
+    /* background-image: url('https://image.tmdb.org/t/p/original/3emtmbHAp145frh3Pps1bZCCEHY.jpg'); */
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0%;
+    background: rgba(63, 62, 62, 0.966);
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    
 }
+
+
+
+.ContainerinfoMovie {
+    padding-left: 100px;
+    width: 100%;
+    height: 70%;
+
+  
+} 
+
+.bannerMovie {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bannerMovie img {
+   
+    max-height: 550px;
+}
+
+
+
+.infoMovie {
+    
+    width: 90%;
+    height: 70%;
+
+}
+
+.infoMovie h1 {
+    margin: 0 0 15px;
+}
+
+
+
+.infoMovieDetails {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+
+}
+
+.infoMovie p {
+    font-size: 18pt;
+}
+
+.infoMovieDetails div {
+    display: flex;
+    align-items: center;
+    gap: 7%;
+}
+
+.infoMovieDetails p {
+    font-size: 15pt;
+    text-transform: uppercase;
+    
+}
+
+.infoMovieTitle {
+    font-size: 30pt;
+    color: #FFF;
+}
+
+
+.buttonContainerGenerator {
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    margin-right: 25px;
+    text-transform: uppercase;
+    
+}
+
+.buttonLetsWatch {
+    background-color: rgb(227, 230, 67);
+}
+
+
+
+

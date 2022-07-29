@@ -13,7 +13,7 @@ nav div {
     gap: 20px;
 }
 
-button {
+.buttonNavBar {
     width: 80px;
     height: 80px;
     background: #FFF;

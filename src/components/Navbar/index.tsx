@@ -20,30 +20,30 @@ export function Navbar(){
     return (
         <nav>
             <div>
-                <button className="home active">
+                <button className="home active buttonNavBar">
                     <FontAwesomeIcon icon={faHome} className="icons activeIcon"/>
                     <p>Home</p>
                 </button>
-                <button>
+                <button className="ranking buttonNavBar">
                     <FontAwesomeIcon icon={faRankingStar} className="icons"/>
                     <p>Ranking</p>
                 </button>
-                <button className="lastSeen">
+                <button className="lastSeen buttonNavBar">
                     <FontAwesomeIcon icon={faClock} className="icons"/>
                     <p>Last Seen</p>
                 </button>
-                <button className="extra">
+                <button className="extra buttonNavBar">
                     <FontAwesomeIcon icon={faPlus} className="icons"/>
                     <p>Extra</p>
                 </button>
             </div>
 
             <div>
-                <button className="setting">
+                <button className="setting buttonNavBar">
                     <FontAwesomeIcon icon={faGear} className="icons"/>
                     <p>Setting</p>
                 </button>
-                <button className="help">
+                <button className="help buttonNavBar">
                     <FontAwesomeIcon icon={faInfoCircle} className="icons"/>
                     <p>Help</p>
                 </button>

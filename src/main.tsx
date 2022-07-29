@@ -15,7 +15,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
       display:'flex',
       
       
-      width: '100vw',
+      width: '98vw',
       height: '88vh'
 
     }}>
