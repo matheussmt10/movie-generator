@@ -11,20 +11,20 @@ const dataDetails = await responseDetails.json()
 
 
 
-export function imageBackground(){
+export function imageBackground(): JSX.Element{
     const image = dataDetails.backdrop_path
 
     return image
 }
 
-export function imagePoster(){
+export function imagePoster(): JSX.Element{
     const image = dataDetails.poster_path
 
     return image
 }
 
 //
-export function UpdateMovieTitle(){
+export function UpdateMovieTitle(): JSX.Element{
    const title = datas.results[numberPicker].title
 
     return (
@@ -33,7 +33,7 @@ export function UpdateMovieTitle(){
 
 }
 
-export function UpdateMovieRating(){
+export function UpdateMovieRating(): JSX.Element{
     const rating = datas.results[numberPicker].vote_average
  
      return (
@@ -44,14 +44,15 @@ export function UpdateMovieRating(){
 
 
 
-export function UpdateMovieRuntime(){
+export function UpdateMovieRuntime(): JSX.Element{
     const runtime = dataDetails.runtime
-    return  `${runtime}MIN`
-
+    return (
+        runtime
+    )
 
 }
 
-export function UpdateMovieRelease(){
+export function UpdateMovieRelease(): JSX.Element{
     const release = datas.results[numberPicker].release_date
     const releaseData = release.split('-')[0]
 
@@ -61,7 +62,7 @@ export function UpdateMovieRelease(){
 
 }
 
-export function UpdateMovieOverview(){
+export function UpdateMovieOverview(): JSX.Element{
     const overview = datas.results[numberPicker].overview
 
     return (
@@ -70,7 +71,7 @@ export function UpdateMovieOverview(){
 
 }
 
-export function UpdateMovieGenre(){
+export function UpdateMovieGenre(): JSX.Element{
     const genre = dataDetails.genres[0].name
 
     return (

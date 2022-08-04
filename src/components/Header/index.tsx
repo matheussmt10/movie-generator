@@ -1,6 +1,7 @@
+
 import './style.css';
 
-export function Header() {
+export function Header(): JSX.Element {
     return (
         <header>        
             <h1>MOVIE G</h1>

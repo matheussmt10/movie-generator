@@ -15,7 +15,7 @@ import { faClock, faCoffee, faGear, faHome, faInfo, faInfoCircle, faPlus, faRank
 
 
 
-export function Navbar(){
+export function Navbar(): JSX.Element{
 
     
     

@@ -5,12 +5,9 @@ import { imageBackground, imagePoster, UpdateMovieGenre, UpdateMovieOverview, Up
 
 
 
-export function ContainerGenerator() {
+export function ContainerGenerator(): JSX.Element {
 
-    const urlImagePoster = 'lPsD10PP4rgUGiGR4CCXA6iY0QQ'
     const poster = `https://image.tmdb.org/t/p/original${imagePoster()}`
-
-     const urlimageBackground = 's5qlyYVINBOPgHfHW2OCcBa2DdX'
     const background = `https://image.tmdb.org/t/p/original${imageBackground()}`
     
     return (
