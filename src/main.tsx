@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
-import { Header } from './components/Header'
-import { Navbar } from './components/Navbar'
-import { ContainerGenerator } from './components/Section'
+import { Header } from './components/Header/index'
+import { Navbar } from './components/Navbar/index'
+import { ContainerGenerator } from './components/Section/index'
 
 
 
