@@ -2,7 +2,7 @@ import './style.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCalendar, faClock, faFilm, faStar } from '@fortawesome/free-solid-svg-icons'
 import { imageBackground, imagePoster, UpdateMovieGenre, UpdateMovieOverview, UpdateMovieRating, UpdateMovieRelease, UpdateMovieRuntime, UpdateMovieTitle } from './api'
-
+//import { handleChangeValue } from './api'
 
 
 export function ContainerGenerator(): JSX.Element {
@@ -41,7 +41,7 @@ export function ContainerGenerator(): JSX.Element {
                     </div>
                     <p><UpdateMovieOverview/></p>
                     <button className='buttonContainerGenerator buttonLetsWatch'>Vamos assistir</button>
-                    <button className='buttonContainerGenerator'>Assistir outro dia</button>
+                    <button className='buttonContainerGenerator' >Assistir outro dia</button>
                     
                 </div>
                 

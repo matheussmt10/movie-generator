@@ -1,3 +1,6 @@
+import React, { useState } from "react"
+
+
 
 //
 const url = 'https://api.themoviedb.org/3/movie/top_rated?api_key=0b5b2c29f1f87439a3aaddd3631de86d&language=pt-BR&page=1'
@@ -9,7 +12,11 @@ const urlDetails = `https://api.themoviedb.org/3/movie/${datas.results[numberPic
 const responseDetails = await fetch(urlDetails)
 const dataDetails = await responseDetails.json()
 
-
+//const [values, setValues] = useState()
+// export function handleChangeValue(){
+//     setValues()
+// }
+ 
 
 export function imageBackground(): JSX.Element{
     const image = dataDetails.backdrop_path
